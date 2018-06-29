@@ -11,6 +11,44 @@ import java.util.regex.Pattern;
  * @Description: 二叉树的构建及相关的操作   二叉树的输入输出格式采用广义表表达式形式，内部表示采用左孩子右孩子的链式存储。
  * 广义表：如A(B,)表示一颗有2个节点的树。其中根的data值为A，其左孩子为叶子节点，data值为B，右孩子为空。
  * 以广义表形式的字符串构建二叉树：'()'前表示根结点，括号中左右子树用逗号隔开，逗号不能省略
+ *
+ *
+ * 此代码包括以下关于二叉树的操作：
+ *
+ * 1：createBinararyTree(String expression)：根据广义表达式创建二叉树
+ * 2：preOrder(Node<E> root) ：前序遍历二叉树递归的形式
+ * 3：preOrder() ：前序遍历二叉树的迭代的形式（使用栈）
+ * 4：inOrder(Node<E> root):中序遍历二叉树递归的形式
+ * 5：inOrder():中序遍历二叉树迭代的形式
+ * 6：postOrder(Node<E> root):后续遍历二叉树递归的形式
+ * 7：postOrder():后续遍历二叉树迭代的形式
+ * 8：levelOrder():层序遍历二叉树
+ * 9：createBinaryTreeByPreAndIn(String ,String)：根据前序和中序的结果重构二叉树
+ * 10：createBinaryTreeByPostAndIn(String ,String)：根据中序和后序的结果重构二叉树
+ * 11：printBinaryTree(Node<E>):以广义表的形式打印二叉树
+ * 12：euqals0(Node<E>,Node<E>):判断两个二叉树是否是相等
+ * 13：size(Node<E>):求二叉树结点的个数
+ * 14：height():求二叉树的高度
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
  */
 public class BinaryTree<E> {
 

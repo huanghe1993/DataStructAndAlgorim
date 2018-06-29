@@ -12,7 +12,7 @@ public class Fibonacci {
         }
     }
 
-    private static int Fbi(int i) {
+    public static int Fbi(int i) {
         if (i < 2) {
             return i == 0 ? 0 : 1;
         }
